@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Form</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Register Form</h2>
+
+        <form action="/submit" method="POST" id="form">
+
+    <input type="text" name="name" id="name" placeholder="Enter Name">
+    <small class="error" id="nameError"></small>
+
+    <input type="email" name="email" id="email" placeholder="Enter Email">
+    <small class="error" id="emailError"></small>
+
+    <input type="password" name="password" id="password" placeholder="Enter Password">
+    <small class="error" id="passwordError"></small>
+
+    <div id="strength"></div>
+
+    <button type="submit">Submit</button>
+</form>
+<div id="result"></div>
+<script src="/js/script.js"></script>
+    </div>
+
+</body>
+</html>
