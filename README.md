@@ -121,6 +121,3 @@ node server.js
 ## 👨‍💻 Author
 
 **Dheeraj Kulal**
-
-👉 Say **"linkedin"**
-I’ll give you a **perfect professional LinkedIn post with hashtags + your repo link** 🔥
